@@ -9,6 +9,12 @@ if test $NUMBER_OF_PLIST_FILES -eq 1 ; then
     GCS_BACKET_DIR=stay-app-android
     GOOGLE_PROJECT_ID=happyhotel-app-android
 
+    echo;   # 改行
+    ESC=$(printf '\033')
+    # 青色でファイル名を表示（34 = BLUE）
+    printf "Upload: ${ESC}[34m%s${ESC}[m\n" "${FILE_NAME}"
+    echo;   # 改行
+
     # ファイルアップロード
     gcloud --quiet config set project ${GOOGLE_PROJECT_ID}
     gsutil cp ${FILE_NAME} gs://${GCS_BACKET_DIR}
