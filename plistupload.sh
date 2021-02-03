@@ -17,7 +17,7 @@ if test $NUMBER_OF_PLIST_FILES -eq 1 ; then
 
     # ファイルアップロード
     gcloud --quiet config set project ${GOOGLE_PROJECT_ID}
-    gsutil -n cp ${FILE_NAME} gs://${GCS_BACKET_DIR}
+    gsutil cp -n ${FILE_NAME} gs://${GCS_BACKET_DIR}
 
     # set Cache-control
     gsutil setmeta -h 'Cache-Control:public, max-age=5' gs://${GCS_BACKET_DIR}/${FILE_NAME}
