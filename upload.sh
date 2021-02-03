@@ -8,6 +8,6 @@ export GOOGLE_PROJECT_ID=happyhotel-app-android
 echo;   # 改行
 echo Please upload IPA and APK:
 ESC=$(printf '\033')
-# URLを下線付きで表示（4 = 下線）
-printf "${ESC}[4m%s${ESC}[m\n" "https://console.cloud.google.com/storage/browser/${GCS_BACKET_DIR}"
+# 青色でGCSバケットURLを表示（34 = BLUE）
+printf "${ESC}[34m%s${ESC}[m\n" "https://console.cloud.google.com/storage/browser/${GCS_BACKET_DIR}"
 echo;   # 改行
