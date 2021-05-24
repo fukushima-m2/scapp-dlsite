@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://storage.googleapis.com/stay-app-android/Adhoc-scb230-staging-1.2.0.0.ipa</string>
+					<string>https://storage.googleapis.com/stay-app-android/Adhoc-scb6039-staging-1.2.0.0-2021-05-21.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>jp.almex.b230</string>
+				<string>jp.almex.scb6039</string>
 				<key>bundle-version</key>
 				<string>1.2.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>2021/4/19版 AdHoc STG環境（B230）</string>
+				<string>2021/5/21版 AdHoc STG環境（B6039）</string>
 			</dict>
 		</dict>
 	</array>
