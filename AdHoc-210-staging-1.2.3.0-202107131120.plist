@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://storage.googleapis.com/stay-app-android/AdHoc-scb230-prod-1.2.2.0-202107051546.ipa</string>
+					<string>https://storage.googleapis.com/stay-app-android/AdHoc-210-staging-1.2.3.0-202107131120.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>jp.almex.scb230</string>
+				<string>jp.stayconcierge.210</string>
 				<key>bundle-version</key>
-				<string>1.2.2</string>
+				<string>1.2.3</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>21/07/05版 scb230 PROD向き</string>
+				<string>21/07/13版 210 STG向き</string>
 			</dict>
 		</dict>
 	</array>
